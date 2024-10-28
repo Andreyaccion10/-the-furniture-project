@@ -1,0 +1,266 @@
+@media (max-width: 376px) {
+  .text_one {
+    text-align: justify;
+    width: 200%;
+  }
+  .text_two {
+    text-align: justify;
+    width: 110%;
+  }
+  .text_tress {
+    text-align: justify;
+    width: 100%;
+  }
+
+  .header_text {
+    text-align: justify;
+    width: 150%;
+  }
+  .text_us {
+    width: 100%;
+  }
+  .furnitu {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_Qua {
+    width: 100px;
+  }
+  .text_All {
+    top: 1280px;
+    text-align: justify;
+    width: 100%;
+  }
+  .text_secur {
+    width: 100%;
+  }
+
+  .text_best {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_choices {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_stand {
+    width: 100%;
+  }
+  .Furniture {
+    width: 100%;
+  }
+  .text_Shop_one {
+    width: 100%;
+  }
+  .text_Shop_two {
+    width: 100%;
+  }
+  .text_Shop_tress {
+    width: 100%;
+  }
+  .text_bedroom {
+    width: 100%;
+  }
+  .text_refectory {
+    width: 100%;
+  }
+  .text_armchair {
+    width: 100%;
+  }
+  .text_bedside {
+    width: 100%;
+  }
+  .text_bedside_top {
+    width: 500%;
+  }
+  .text_one_block {
+    margin-right: 100px;
+    width: 50%;
+  }
+  .text_one_bloc_top {
+    width: 210%;
+  }
+  .text_online_letter {
+    width: 400%;
+  }
+  .ipsum {
+    width: 200%;
+  }
+  .text_tour {
+    width: 300%;
+    font-size: 20px;
+  }
+  .text_group {
+    width: 100%;
+  }
+  #residence {
+    margin-top: 4620px;
+  }
+  .img_navigation_arrow {
+    margin-top: 4630px;
+  }
+  .text_digital_mai {
+    margin-top: 4635px;
+    width: 100%;
+  }
+  .text_content_author {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .text_one {
+    text-align: justify;
+    width: 300%;
+  }
+  .text_two {
+    text-align: justify;
+    width: 400%;
+  }
+  .text_tress {
+    text-align: justify;
+    width: 200%;
+  }
+  .header_text {
+    text-align: justify;
+    width: 200%;
+  }
+  .text_us {
+    width: 200%;
+    text-align: justify;
+  }
+  .furnitu {
+    text-align: justify;
+    width: 200%;
+  }
+  .text_Qua {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_All {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_secur {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_best {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_stand {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_choices {
+    text-align: justify;
+    width: 100%;
+  }
+  .Now_text_two {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_card_tress {
+    text-align: justify;
+    width: 100%;
+  }
+  .Now_text_tress {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_Shop_tress {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_bedside {
+    text-align: justify;
+    width: 150%;
+  }
+  .text_bedside_top {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_one_block {
+    margin-left: 350px;
+    text-align: justify;
+    width: 190%;
+  }
+  .text_one_bloc_top {
+    margin-left: 350px;
+    text-align: justify;
+    width: 190%;
+  }
+  #residence {
+    margin-top: 4620px;
+  }
+  .img_navigation_arrow {
+    margin-top: 4630px;
+  }
+}
+@media (max-width: 1024px) {
+  .text_one {
+    width: 100%;
+  }
+  .text_two {
+    width: 100%;
+  }
+  .header_text {
+    width: 100%;
+  }
+  .furnitu {
+    width: 100%;
+  }
+  .text_Qua {
+    width: 100%;
+  }
+  .text_All {
+    width: 100%;
+  }
+  .text_secur {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_best {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_stand {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_choices {
+    width: 100%;
+  }
+  .text_card_tress {
+    width: 100%;
+  }
+  .Now_text_tress {
+    width: 100%;
+  }
+  .text_bedside {
+    width: 100%;
+    text-align: justify;
+  }
+  .text_bedside_top {
+    text-align: justify;
+    width: 100%;
+  }
+  .text_one_block {
+    text-align: justify;
+    width: 50%;
+  }
+  .text_one_bloc_top {
+    text-align: justify;
+    width: 55%;
+  }
+  #residence {
+    margin-top: 4610px;
+  }
+  .text_digital_mai {
+    margin-top: 4625px;
+    width: 50%;
+  }
+  .img_navigation_arrow {
+    margin-top: 4620px;
+  }
+}

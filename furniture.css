@@ -1,0 +1,1076 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  width: 100%;
+}
+.header {
+  z-index: 999;
+  /* z-index: 1; переходит на передний план */
+  width: 89%;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  margin-left: 250px;
+  font-size: 20px;
+  list-style: none;
+  /* чтобы убрать точки из списка в CSS list-style: none; */
+}
+.nav-link {
+  color: #161616;
+  text-decoration: none;
+}
+
+.nav-button {
+  margin-left: 920px;
+  display: none;
+}
+.menu_2 {
+  margin-left: -100px;
+  display: none;
+}
+#rectangle {
+  position: absolute;
+  width: 1400px;
+  height: 560px;
+  background: #154444;
+  margin-top: 50px;
+}
+
+.chair {
+  position: absolute;
+  z-index: 1;
+  margin-right: 100px;
+  margin-top: 49px;
+  width: 411px;
+  /* Чтобы опустить изображение в CSS, используйте свойство margin-top. 
+  Например, если вы хотите опустить изображение на 20 пикселей, добавьте следующее 
+  правило в ваш CSS файл:
+img {
+ margin-top: 20px;
+} */
+}
+.text_one {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 150px;
+  font-size: 30px;
+}
+.text_one h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.text_two {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 299px;
+  font-size: 20px;
+}
+.text_two p {
+  color: #ffffff;
+}
+#square {
+  position: absolute;
+  width: 172px;
+  height: 56px;
+  background: #ffffff;
+  margin-left: 650px;
+  margin-top: 400px;
+}
+.text_tress {
+  position: absolute;
+  margin-left: 680px;
+  margin-top: 420px;
+  font-size: 20px;
+}
+.text_tress {
+  color: #154444;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.header_text {
+  position: absolute;
+  margin-left: 350px;
+  font-size: 30px;
+  margin-top: 700px;
+  color: #154444;
+}
+.brand {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 800px;
+}
+
+.brand_two {
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 810px;
+}
+
+.brand_tress {
+  position: absolute;
+  margin-left: 470px;
+  margin-top: 810px;
+}
+.brand_cuatro {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 810px;
+}
+.brand_cinco {
+  position: absolute;
+  margin-left: 950px;
+  margin-top: 810px;
+}
+
+.brand_sies {
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 810px;
+}
+
+#card {
+  position: absolute;
+  width: 640px;
+  height: 600px;
+  background: #dee4e2;
+  margin-top: 990px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  /* border-top-left-radius — для верхнего левого угла;
+border-top-right-radius — для верхнего правого угла;
+border-bottom-left-radius — для нижнего левого угла;
+border-bottom-right-radius — для нижнего правого угла. */
+}
+.map_image {
+  position: absolute;
+  min-width: 596px;
+  min-height: 577px;
+  top: 1020px;
+  transition: 0.5 ease;
+}
+
+.text_us {
+  position: absolute;
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  color: #244d4d;
+  top: 1090px;
+  margin-left: 800px;
+}
+.furnitu {
+  position: absolute;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  top: 1150px;
+  margin-left: 800px;
+  color: #444444;
+}
+.shield {
+  position: absolute;
+  top: 1240px;
+  margin-left: 800px;
+}
+.text_Qua {
+  position: absolute;
+  top: 1240px;
+  margin-left: 890px;
+  color: #244d4d;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.text_All {
+  position: absolute;
+  top: 1290px;
+  margin-left: 890px;
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.tick {
+  position: absolute;
+  top: 1360px;
+  margin-left: 800px;
+}
+.text_secur {
+  position: absolute;
+  top: 1360px;
+  margin-left: 890px;
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.text_best {
+  position: absolute;
+  top: 1410px;
+  margin-left: 890px;
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.stand {
+  position: absolute;
+  top: 1490px;
+  margin-left: 800px;
+}
+.text_stand {
+  position: absolute;
+  top: 1490px;
+  margin-left: 890px;
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.text_choices {
+  position: absolute;
+  top: 1540px;
+  margin-left: 890px;
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.text_our {
+  position: absolute;
+  top: 1750px;
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.text_replay {
+  position: absolute;
+  top: 1790px;
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  line-height: 1.5em;
+  /* line-height в CSS — это свойство, которое устанавливает расстояние между строками текста. 
+  Оно измеряется от базовой линии шрифта и определяет, насколько высоко будет располагаться 
+  каждая строка относительно друг друга. */
+}
+#table_card {
+  position: absolute;
+  width: 380px;
+  height: 362px;
+  background: #ffffff;
+  top: 1870px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 2px 2px;
+}
+.img_swan {
+  position: absolute;
+  top: 1869px;
+  width: 100px;
+  height: 10px;
+  margin-right: 600px;
+
+  /* transition: 0.5s ease; — это свойство в CSS, которое создаёт плавные переходы между 
+  разными состояниями элемента при изменении его свойств. 
+  Оно задаёт длительность перехода (0,5 секунды) и функцию времени (ease), 
+  которая определяет скорость изменения перехода. */
+}
+
+/*  transform: scale(1.1); При наведении курсора на изображение оно будет 
+  уменьшаться с помощью свойства transform до значения scale(0.8). */
+/* Чтобы увеличить изображение при нажатии, используйте CSS-селектор :hover и свойство transform: scale(2). 
+  Это позволит изображению увеличиваться в два раза при наведении курсора, сохраняя плавный переходной эффект. */
+
+#card_office {
+  position: absolute;
+  width: 380px;
+  height: 362px;
+  background: #ffffff;
+  top: 1870px;
+  margin-left: 450px;
+  box-shadow: 2px 2px 2px;
+}
+.img_table {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 1869px;
+  margin-left: 450px;
+}
+
+#card_hall {
+  position: absolute;
+  width: 380px;
+  height: 362px;
+  background: #ffffff;
+  top: 1870px;
+  margin-left: 930px;
+  box-shadow: 2px 2px 2px;
+}
+.img_hall {
+  position: absolute;
+  top: 1869px;
+  width: 100px;
+  height: 10px;
+  margin-left: 930px;
+}
+
+.right_arrow {
+  position: absolute;
+  margin-left: 1270px;
+  margin-top: 1750px;
+}
+.left_arrow {
+  position: absolute;
+  margin-top: 1750px;
+  margin-left: 1220px;
+}
+.text_card_one {
+  position: absolute;
+  margin-top: 2080px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #242424;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.heart_one {
+  position: absolute;
+  margin-top: 2075px;
+  margin-left: 290px;
+}
+.share_one {
+  position: absolute;
+  margin-top: 2075px;
+  margin-left: 330px;
+}
+.price_tag_one {
+  position: absolute;
+  margin-top: 2120px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+#Now_one {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  margin-top: 2125px;
+  background: #244d4d;
+  margin-left: 240px;
+}
+.Now_text_one {
+  position: absolute;
+  margin-top: 2135px;
+  margin-left: 270px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.heart_two {
+  position: absolute;
+  margin-top: 2075px;
+  margin-left: 746px;
+}
+.text_card_two {
+  position: absolute;
+  margin-top: 2080px;
+  margin-left: 480px;
+  font-size: 12px;
+  color: #242424;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.price_tag_two {
+  position: absolute;
+  margin-top: 2120px;
+  margin-left: 480px;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.share_two {
+  position: absolute;
+  margin-top: 2075px;
+  margin-left: 780px;
+}
+#Nome_two {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  margin-top: 2125px;
+  background: #244d4d;
+  margin-left: 700px;
+}
+.Now_text_two {
+  position: absolute;
+  margin-top: 2135px;
+  margin-left: 730px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.text_card_tress {
+  position: absolute;
+  margin-top: 2080px;
+  margin-left: 960px;
+  font-size: 12px;
+  color: #242424;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.heart_tress {
+  position: absolute;
+  margin-top: 2075px;
+  margin-left: 1260px;
+}
+.price_tag_tress {
+  position: absolute;
+  margin-top: 2120px;
+  margin-left: 960px;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.share_tress {
+  position: absolute;
+  margin-top: 2075px;
+  margin-left: 1220px;
+}
+#Nome_tress {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  margin-top: 2125px;
+  background: #244d4d;
+  margin-left: 1175px;
+}
+.Now_text_tress {
+  position: absolute;
+  margin-top: 2135px;
+  margin-left: 1200px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.Furniture {
+  position: absolute;
+  margin-top: 2135px;
+  margin-left: 480px;
+  top: 240px;
+}
+.text_Shop_one {
+  position: absolute;
+  margin-top: 2135px;
+  margin-left: 280px;
+  top: 290px;
+}
+.text_Shop_one a {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  color: #919090;
+  border-bottom: 2px solid transparent;
+  transition: all 0.55s ease;
+}
+.text_Shop_one a:hover {
+  border-bottom: 2px solid #154444;
+}
+.text_Shop_two {
+  position: absolute;
+  margin-top: 2135px;
+  margin-left: 505px;
+  top: 290px;
+}
+.text_Shop_two a {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  color: #919090;
+  border-bottom: 2px solid transparent;
+  transition: all 0.55s ease;
+}
+.text_Shop_two a:hover {
+  border-bottom: 2px solid #154444;
+}
+.text_Shop_tress {
+  position: absolute;
+  margin-top: 2135px;
+  margin-left: 760px;
+  top: 290px;
+}
+.text_Shop_tress a {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  color: #919090;
+  border-bottom: 2px solid transparent;
+  transition: all 0.55s ease;
+}
+.text_Shop_tress a:hover {
+  border-bottom: 2px solid #154444;
+}
+
+#pictureone {
+  position: absolute;
+  width: 210px;
+  height: 90px;
+  margin-top: 2455px;
+  background: #154444;
+}
+#picturetwo {
+  position: absolute;
+  width: 210px;
+  height: 90px;
+  margin-top: 2785px;
+  background: #154444;
+  margin-left: 370px;
+}
+.pictur {
+  position: absolute;
+  margin-top: 2470px;
+
+  margin-left: 10px;
+}
+
+#Room {
+  position: absolute;
+  width: 222px;
+  height: 90px;
+  margin-top: 2500px;
+  background: #ffffff;
+  margin-left: 710px;
+  border: 1px solid #d9dce5;
+}
+#Dining {
+  position: absolute;
+  width: 222px;
+  height: 90px;
+  margin-top: 2620px;
+  background: #ffffff;
+  margin-left: 710px;
+  border: 1px solid #d9dce5;
+}
+#Bed {
+  position: absolute;
+  width: 222px;
+  height: 90px;
+  margin-top: 2500px;
+  background: #ffffff;
+  margin-left: 710px;
+  border: 1px solid #d9dce5;
+  margin-left: 970px;
+}
+#Kitchen {
+  position: absolute;
+  width: 222px;
+  height: 90px;
+  margin-top: 2620px;
+  background: #808080;
+  margin-left: 710px;
+  border: 1px solid #d9dce5;
+  margin-left: 970px;
+}
+#Hallway {
+  position: absolute;
+  width: 222px;
+  height: 90px;
+  margin-top: 2750px;
+  background: #ffffff;
+  margin-left: 710px;
+  border: 1px solid #d9dce5;
+  margin-left: 970px;
+}
+#Office {
+  position: absolute;
+  width: 222px;
+  height: 90px;
+  margin-top: 2750px;
+  background: #fff;
+  margin-left: 610px;
+  border: 1px solid #d9dce5;
+  margin-left: 710px;
+}
+.armchair {
+  position: absolute;
+  margin-top: 2515px;
+  margin-left: 800px;
+}
+.text_armchair {
+  position: absolute;
+  margin-top: 2550px;
+  margin-left: 770px;
+  color: #808080;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.refectory {
+  position: absolute;
+  margin-top: 2640px;
+  margin-left: 800px;
+}
+.text_refectory {
+  position: absolute;
+  margin-top: 2675px;
+  margin-left: 770px;
+  color: #808080;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.bedroom {
+  position: absolute;
+  margin-top: 2770px;
+  margin-left: 800px;
+}
+.text_bedroom {
+  position: absolute;
+  margin-top: 2800px;
+  margin-left: 775px;
+  color: #808080;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.kitchen {
+  position: absolute;
+  margin-top: 2515px;
+  margin-left: 1060px;
+}
+.text_kitchen {
+  position: absolute;
+  margin-top: 2550px;
+  margin-left: 1050px;
+  color: #808080;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.Office {
+  position: absolute;
+  margin-top: 2640px;
+  margin-left: 1060px;
+}
+.text_Office {
+  position: absolute;
+  margin-top: 2675px;
+  margin-left: 1050px;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.corridor {
+  position: absolute;
+  margin-top: 2770px;
+  margin-left: 1060px;
+}
+.text_corridor {
+  position: absolute;
+  margin-top: 2799px;
+  margin-left: 1048px;
+  color: #808080;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+#circle {
+  position: absolute;
+  margin-top: 3000px;
+  margin-left: 5px;
+  background: #244d4d;
+  width: 492.42px;
+  height: 492.42px;
+  border-radius: 50%;
+}
+.bedside_table {
+  position: absolute;
+  margin-top: 3000px;
+  margin-left: 100px;
+  height: 50px;
+}
+.text_bedside {
+  position: absolute;
+  margin-top: 3110px;
+  margin-left: 650px;
+}
+.text_bedside h2 {
+  color: #242424;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+}
+.text_bedside_top {
+  position: absolute;
+  margin-top: 3200px;
+  margin-left: 650px;
+}
+.text_bedside_top p {
+  color: #383738;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  line-height: 1.4em;
+  top: 10px;
+}
+.feedback {
+  position: absolute;
+  margin-top: 3330px;
+  margin-left: 650px;
+}
+
+.Mh {
+  position: absolute;
+  margin-top: 3330px;
+  margin-left: 710px;
+}
+.Mh {
+  color: #383738;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+.Star_rating {
+  position: absolute;
+  margin-top: 3355px;
+  margin-left: 710px;
+}
+.rating {
+  position: absolute;
+  margin-top: 3355px;
+  margin-left: 736px;
+}
+.rating p {
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+}
+#block_one {
+  position: absolute;
+  margin-top: 3650px;
+  width: 1400px;
+  height: 392.32px;
+  background: #f4f6f6;
+}
+.text_one_block {
+  position: absolute;
+  margin-top: 3710px;
+  margin-left: 500px;
+}
+.text_one_block h2 {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+}
+.text_one_bloc_top {
+  position: absolute;
+  margin-top: 3810px;
+  margin-left: 500px;
+}
+.text_one_bloc_top p {
+  color: #222222;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+}
+#block_two_top {
+  position: absolute;
+  margin-top: 3900px;
+  width: 471.98px;
+  height: 67px;
+  background: #ffffff;
+  margin-left: 510px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#Register_top {
+  position: absolute;
+  margin-top: 3910px;
+  background: #305f64;
+  width: 115.32px;
+  height: 52px;
+  margin-left: 830px;
+}
+.text_arrange {
+  position: absolute;
+  margin-top: 3925px;
+  margin-left: 860px;
+}
+.text_arrange p {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.text_online_letter {
+  position: absolute;
+  margin-top: 3925px;
+  margin-left: 560px;
+}
+.text_online_letter p {
+  color: #bababa;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+.virtual_message {
+  position: absolute;
+  margin-top: 3925px;
+  margin-left: 530px;
+}
+
+#tress_square_top {
+  position: absolute;
+  background: #305f64;
+  width: 1400px;
+  height: 500px;
+  margin-top: 4300px;
+}
+.logo_2_end {
+  position: absolute;
+  margin-top: 4440px;
+  margin-left: 100px;
+  font-size: 24px;
+}
+
+.ipsum {
+  position: absolute;
+  margin-top: 4490px;
+  margin-left: 100px;
+}
+.ipsum p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.4em;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
+.follow_us {
+  position: absolute;
+  margin-top: 4630px;
+  margin-left: 100px;
+}
+.follow_us h2 {
+  color: #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.Facebook_top {
+  position: absolute;
+  margin-top: 4680px;
+  margin-left: 100px;
+}
+.Twitter_top {
+  position: absolute;
+  margin-top: 4682px;
+  margin-left: 140px;
+}
+
+.Instagram_top {
+  position: absolute;
+  margin-top: 4682px;
+  margin-left: 180px;
+}
+
+.YouTube_top {
+  position: absolute;
+  margin-top: 4682px;
+  margin-left: 220px;
+}
+
+.text_tour {
+  position: absolute;
+  margin-top: 4440px;
+  margin-left: 600px;
+}
+.text_tour h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.3;
+}
+.text_Features {
+  position: absolute;
+  margin-top: 4492px;
+  margin-left: 600px;
+}
+.text_Features p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.text_pricing {
+  position: absolute;
+  margin-top: 4530px;
+  margin-left: 600px;
+}
+.text_pricing p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.text_Product {
+  position: absolute;
+  margin-top: 4565px;
+  margin-left: 600px;
+}
+.text_Product p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.text_Supp {
+  position: absolute;
+  margin-top: 4599px;
+  margin-left: 600px;
+}
+.text_Supp p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.text_group {
+  position: absolute;
+  margin-top: 4440px;
+  margin-left: 840px;
+}
+.text_group h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.text_about_us {
+  position: absolute;
+  margin-top: 4490px;
+  margin-left: 840px;
+}
+.text_about_us p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.text_diary {
+  position: absolute;
+  margin-top: 4530px;
+  margin-left: 840px;
+}
+.text_diary p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.information {
+  position: absolute;
+  margin-top: 4565px;
+  margin-left: 840px;
+}
+.information p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.text_talk {
+  position: absolute;
+  margin-top: 4600px;
+  margin-left: 840px;
+}
+.text_talk p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.text_affixwith_a_signature {
+  position: absolute;
+  margin-top: 4445px;
+  margin-left: 1150px;
+}
+.text_affixwith_a_signature h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+.text_authorize {
+  position: absolute;
+  margin-top: 4490px;
+  margin-left: 1150px;
+}
+.text_authorize p {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1.3em;
+}
+#residence {
+  position: absolute;
+  background: #ffffff;
+  width: 210px;
+  height: 48px;
+  margin-top: 4580px;
+  margin-left: 1150px;
+}
+.text_digital_mai {
+  position: absolute;
+  margin-top: 4595px;
+  margin-left: 1170px;
+}
+.text_digital_mai p {
+  color: #859395;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+.img_navigation_arrow {
+  position: absolute;
+  margin-top: 4589px;
+  margin-left: 1320px;
+}
+
+.secon {
+  position: absolute;
+  border-bottom: 1px solid #407980;
+  padding: 5px;
+  width: 1300px;
+  height: 4730px;
+  border-top: 1px;
+  left: 100px;
+  padding-left: 25px;
+  padding-right: 75px;
+  /* padding-left: 25px;
+    padding-right: 75px; это свойств, котопая делает линию длинее  */
+}
+.text_content_author {
+  position: absolute;
+  margin-top: 4760px;
+  margin-left: 580px;
+}
+.text_content_author p {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+}
